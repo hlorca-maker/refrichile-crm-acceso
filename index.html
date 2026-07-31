@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>CRM RefriChile</title>
+
+<!-- Icono de la pantalla de inicio del iPhone. Safari lo lee SOLO del documento
+     de nivel superior, y en la app de Apps Script ese documento es de Google:
+     por eso existe esta pagina. -->
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="CRM">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#032A4A">
+
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100svh;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 26px; padding: 32px 22px calc(32px + env(safe-area-inset-bottom));
+    background: #032A4A; color: #E8EEF5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    text-align: center;
+  }
+  img.logo { width: 96px; height: 96px; border-radius: 22px; }
+  h1 { margin: 0; font-size: 21px; font-weight: 700; letter-spacing: .01em; }
+  p.sub { margin: 0; font-size: 13.5px; color: #9DB0C5; max-width: 30ch; line-height: 1.5; }
+  a.btn {
+    display: block; width: 100%; max-width: 340px;
+    padding: 16px 20px; border-radius: 14px;
+    background: #1976B5; color: #fff; text-decoration: none;
+    font-size: 16px; font-weight: 650;
+  }
+  a.btn:active { background: #145E92; }
+  a.alt { font-size: 13px; color: #7FB4DC; text-decoration: none; }
+  .nota {
+    font-size: 11.5px; color: #6B8199; max-width: 34ch; line-height: 1.55;
+    border-top: 1px solid rgba(148,163,184,.2); padding-top: 16px;
+  }
+</style>
+</head>
+<body>
+  <img class="logo" src="icono-1024.png" alt="">
+  <div>
+    <h1>CRM RefriChile</h1>
+    <p class="sub">Acceso con tu cuenta&nbsp;@refrichile.cl</p>
+  </div>
+
+  <a class="btn" href="https://script.google.com/a/macros/refrichile.cl/s/AKfycbwWxskR-Nr3GhMRW89TFiQ59NqGdI1IX8_wmpYW1N-Px6ZkY5E5DjIZkQup-1Y8YNdw/exec">Entrar al CRM</a>
+
+  <a class="alt" href="https://script.google.com/a/macros/refrichile.cl/s/AKfycbyr7DJpMze7ji7sYb8Z0AP4-0nIFoawuIiSpypKFNo/exec">Versión de pruebas</a>
+
+  <p class="nota">
+    Para dejarlo en la pantalla de inicio: Compartir&nbsp;→ Agregar a inicio.
+    El ícono se toma de esta página.
+  </p>
+</body>
+</html>
